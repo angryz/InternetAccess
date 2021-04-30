@@ -1,0 +1,9 @@
+#Gateway: openwrt
+dhcp-option=tag:openwrt,option:router,10.10.10.5
+dhcp-option=tag:openwrt,option:dns-server,10.10.10.5
+#device go through openwrt. MAC,Gateway,IP,DNS,Alias
+dhcp-host=94:DB:56:43:95:8A,set:openwrt,10.10.10.60,,Sony-X9000H
+dhcp-host=2C:26:17:F7:B5:67,set:openwrt,10.10.10.99,,OculusQuest2
+dhcp-host=28:CF:E9:1D:E6:69,set:openwrt,10.10.10.108,,MBP2013
+dhcp-host=3C:22:FB:52:F7:4B,set:openwrt,10.10.10.110,,WUWANG-MBP2019
+dhcp-host=4E:F0:28:78:FE:63,set:openwrt,10.10.10.111,,ZP-iPhone12Pro
